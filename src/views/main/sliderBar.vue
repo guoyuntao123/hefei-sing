@@ -42,8 +42,8 @@
 </script>
 <style scoped>
   .swiper-container {
-    width: 1100px;
-    height: 650px;
+    width: 1000px;
+    height: 500px;
     margin:20px auto;
     color:white;
     font-size: 30px;

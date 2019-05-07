@@ -17,7 +17,7 @@
             <span>注册</span>
           </router-link>
           <router-link to="/logon">
-            <span>登录{{index}}</span>
+            <span>登录</span>
           </router-link>
         </div>
       </div>
