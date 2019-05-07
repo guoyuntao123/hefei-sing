@@ -8,7 +8,7 @@ import Ukulele from '@/views/ukulele'
 import Singer from '@/views/singer'
 import Course from '@/views/course'
 import Comment from '@/views/comment'
-import Shopping from '@/views/shopping'
+import Shopping from '@/views/shopping/shopping'
 import Help from '@/views/help'
 
 Vue.use(Router)
