@@ -14,9 +14,8 @@
 
   import Header from '@/components/header'
   import Nav from '@/components/nav'
-  import SliderBar from '@/views/child/sliderBar'
-
-  import Bottom from '../components/bottom'
+  import SliderBar from '@/views/main/sliderBar'
+  import Bottom from '@/components/bottom'
 
   export default {
     name: 'Main',

@@ -1,14 +1,13 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Main from '@/views/main'
-import LogOn from '@/views/logOn'
-import Register from '@/views/register'
-import Guitar from '@/views/guitar'
-import Ukulele from '@/views/ukulele'
-import Singer from '@/views/singer'
-import Course from '@/views/course'
-import Comment from '@/views/comment'
-import Shopping from '@/views/shopping'
+import Main from '@/views/main/main'
+import Login from '@/views/login/login'
+import Register from '@/views/login/register'
+import Guitar from '@/views/guitar/guitar'
+import Singer from '@/views/singer/singer'
+import Course from '@/views/course/course'
+import Comment from '@/views/comment/comment'
+import Shopping from '@/views/shopping/shopping'
 import Help from '@/views/help'
 
 Vue.use(Router)
@@ -30,9 +29,6 @@ export default new Router({
       path: '/guitar',
       component: Guitar
     },{
-      path: '/ukulele',
-      component: Ukulele
-    },{
       path: '/singer',
       component: Singer
     },{
@@ -48,8 +44,8 @@ export default new Router({
       path:'/help',
       component:Help
     },{
-      path:'/logOn',
-      component:LogOn
+      path:'/login',
+      component:Login
     },{
       path:'/register',
       component:Register
