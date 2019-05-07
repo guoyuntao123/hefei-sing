@@ -1,4 +1,5 @@
 # hefei-sing
+<<<<<<< HEAD
 
 > hefei singer wessite website
 
@@ -19,3 +20,6 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+=======
+集吉他谱，吉他教程等一系列
+>>>>>>> eaf0117c1b4cae11802bd9fefcdc5beb42895ff3
