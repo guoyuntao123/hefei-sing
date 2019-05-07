@@ -14,8 +14,8 @@
   import Header from '@/components/header'
   import Nav from '@/components/nav'
   import Bottom from '@/components/bottom'
-  import Opern from '@/views/child/opern'
-  import HotSinger from '@/views/child/hotSinger'
+  import Opern from '@/views/guitar/opern'
+  import HotSinger from '@/views/guitar/hotSinger'
 
   export default {
     name: "guitar",
