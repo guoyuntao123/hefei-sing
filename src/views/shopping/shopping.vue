@@ -1,11 +1,8 @@
 <template>
   <div>
-    <Header></Header>
-    <Nav :index="5"></Nav>
     <div class="content">
       shopping
     </div>
-    <Bottom></Bottom>
   </div>
 </template>
 
