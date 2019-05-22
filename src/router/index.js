@@ -5,6 +5,7 @@ import Login from '@/views/login/login'
 import Register from '@/views/login/register'
 import Guitar from '@/views/guitar/guitar'
 import Singer from '@/views/singer/singer'
+import singerDesc from '@/views/singer/singerDesc'
 import Course from '@/views/course/course'
 import Comment from '@/views/comment/comment'
 import Shopping from '@/views/shopping/shopping'
@@ -49,6 +50,10 @@ export default new Router({
     },{
       path:'/register',
       component:Register
+    },{
+      path:'/singer-desc/:id',
+      component:singerDesc,
+      name: 'singer-desc'
     }
   ]
 })

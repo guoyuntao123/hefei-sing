@@ -37,7 +37,12 @@
                 <li class="char" :id="item.char">
                 {{item.char}}
                 </li>
-                <a class="singers" href="#" v-for="it in item.singers" >{{it.name}}({{it.num}})</a>
+                <div class="singers" href="/#/singer-desc" v-for="it in item.singers" >
+
+                  <router-link :to="{name:'singer-desc', params:{id: it.name} }">
+                    {{it.name}}({{it.num}})
+                  </router-link>
+                </div>
               </template>
             </ul>
         </div>
@@ -57,7 +62,7 @@
             return {
                 datas:[
                   {char:"A",singers:[{name:"阿肆",num:2},{name:"阿信",num:3}]},
-                  {char:"B",singers:[{name:"beyond",num:2},{name:"布鲁斯",num:3}]},
+                  {char:"B",singers:[{name:"beyond",num:2},{name:"beatles",num:3}]},
                   {char:"C",singers:[{name:"陈奕迅",num:2},{name:"陈奕迅",num:2},{name:"陈奕迅",num:2},{name:"陈奕迅",num:2},{name:"陈奕迅",num:2},{name:"陈奕迅",num:2},{name:"陈奕迅",num:2},{name:"陈奕迅",num:2},{name:"陈奕迅",num:2},{name:"陈奕迅",num:2},{name:"陈鸿宇",num:3},{name:"陈奕迅",num:2},{name:"陈鸿宇",num:3},{name:"陈奕迅",num:2},{name:"陈鸿宇",num:3}]},
                   {char:"D",singers:[{name:"邓紫棋",num:2},{name:"邓紫棋",num:2},{name:"邓紫棋",num:2},{name:"邓紫棋",num:2},{name:"邓紫棋",num:2},{name:"邓紫棋",num:2},{name:"邓丽君",num:3}]},
                   {char:"E",singers:[{name:"贰佰",num:2},{name:"Eason",num:3}]},
@@ -138,7 +143,6 @@ a{
 
 
 .singers:hover{
-  font-weight: bolder;
   text-decoration: underline;
 }
 </style>
