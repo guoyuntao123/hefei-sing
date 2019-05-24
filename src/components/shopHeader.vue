@@ -1,27 +1,34 @@
 <template>
-  <div class="background">
-    <h1 class="title">测试<span class="as-title">官网</span></h1>
-
+  <div class="shopHeader">
+    <div class="heade" >
+      <div>img</div>
+      <div class="head-desc">查真伪,找曲谱,寻视频,奏名曲尽在合肥卖场小分队</div>
+      <div>img</div>
+    </div>
   </div>
 </template>
 
 <script>
   export default {
-    name: "logo"
+    name: "shopHeader",
+    data() {
+      return {
+        msg: "welcome caopp"
+      };
+    }
   }
 </script>
 
-<style>
-  .background{
-    background-color: #D56464;
-    height: 90px;
-    line-height: 90px;
-    text-align: center;
+<style scoped>
+  .heade{
+    height: 70px;
+    background: #2DA9A9;
   }
-  .title{
-    color:white;
+  .heade div{
+    float: left;
+    margin-left:170px;
   }
-  .as-title{
-    font-size: 27px;
+  .head-desc{
+    font-size: 18px;
   }
 </style>
