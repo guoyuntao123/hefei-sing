@@ -42,7 +42,7 @@
     width: 1200px;
     margin:0 auto;
     padding-bottom: 15px;
-    padding-top: 15px;
+    padding-top: 25px;
   }
   ul{
     list-style-type: none;

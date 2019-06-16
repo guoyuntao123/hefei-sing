@@ -129,7 +129,6 @@
               {"name":"像我这样的人吉他谱_毛不的人吉他谱_毛不易_C调原版弹",author:'admin',"url":"https://www.baidu.com"},
               {"name":"像我这样的人吉他谱_毛不的人吉他谱_毛不易_C调原版弹",author:'admin',"url":"https://www.baidu.com"},
               {"name":"像我这样的人吉他谱_毛不的人吉他谱_毛不易_C调原版弹",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"彩虹",author:'admin',"url":"https://www.baidu.com"},
             ],
             txts:[
               {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
@@ -140,14 +139,6 @@
               {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
               {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
               {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
-
               {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
               {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
               {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
@@ -176,13 +167,6 @@
               {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
               {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
               {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"},
               {"name":"Killer Queen",author:'admin',"url":"https://www.baidu.com"}
             ],
             chinese:[
@@ -194,15 +178,7 @@
               {"name":"成都",author:'admin',"url":"https://www.baidu.com"},
               {"name":"成都",author:'admin',"url":"https://www.baidu.com"},
               {"name":"成都",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"成都",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"成都",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"成都",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"成都",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"成都",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"成都",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"成都",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"成都",author:'admin',"url":"https://www.baidu.com"},
-              {"name":"成都",author:'admin',"url":"https://www.baidu.com"},
+
               {"name":"成都",author:'admin',"url":"https://www.baidu.com"},
               {"name":"成都",author:'admin',"url":"https://www.baidu.com"},
               {"name":"成都",author:'admin',"url":"https://www.baidu.com"},
@@ -290,7 +266,7 @@
   border:1px solid #D56464;
   display: inline-block;
   float: left;
-  height: 750px;
+  height: 730px;
   overflow: hidden;
 }
 .box-div div{
